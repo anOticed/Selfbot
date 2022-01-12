@@ -7,7 +7,7 @@ import time
 
 logging.basicConfig(level=logging.INFO)
 
-with open('sconfig.json') as f:
+with open('config.json') as f:
     d = load(f)
     token = d["token"]
     prefix = d["prefix"]
